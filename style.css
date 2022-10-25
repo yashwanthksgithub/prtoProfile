@@ -1,0 +1,655 @@
+ @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Mukta:wght@500&family=Teko&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .homeimage {
+     background-image: url("home.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 81vw;
+ }
+
+ .sideimg {
+     background-image: url("sideimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+ }
+
+ .container {
+     display: flex;
+ }
+
+ .sidebar {
+     background-image: url("sideimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     font-family: 'Teko', sans-serif;
+     height: 100vh;
+     transition: transform 0.5s ease-in;
+     position: absolute;
+ }
+
+ .sidebar nav {
+     padding: 55px;
+ }
+
+ .sidebar nav ul {
+     top: 20px;
+     height: 50px;
+ }
+
+ .sidebar nav li {
+     font-size: 30px;
+     list-style: none;
+     margin: 26px;
+     padding: 7px;
+ }
+
+ .sidebar nav li a {
+     text-decoration: none;
+     color: gold;
+ }
+
+ .main {
+     font-family: 'Mukta', sans-serif;
+     /* padding: 60px; */
+     width: 80%;
+ }
+
+ .infocontainer {
+     flex-wrap: wrap;
+     height: 40vh;
+     width: 60vw;
+     margin: 170px 260px;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .devinfo {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .devpic img {
+     height: 70vh;
+     border-radius: 20px;
+     border: 2px solid crimson;
+     box-shadow: 3px 3px 12px 6px yellow, 8px 7px 11px 4px white;
+     ;
+ }
+
+ .hello {
+     color: white;
+     font-size: 40px;
+     font-family: 'Heebo', sans-serif;
+     text-shadow: 2px 2px 2px 2px aqua;
+ }
+
+ #name {
+     color: white;
+     font-style: inherit;
+     font-weight: 500px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 35px;
+     text-shadow: 2px 2px 2px 2px crimson;
+ }
+
+ .college {
+     color: white;
+     font-size: 25px;
+     text-shadow: 2px 2px 2px 2px greenyellow;
+ }
+
+ .branch {
+     font-size: 15px;
+     color: white;
+     text-shadow: 2px 2px 2px 2px rgb(148, 203, 66);
+ }
+
+
+ .btn button {
+     font-size: 25px;
+     border: 2px solid crimson;
+     padding: 5px 7px;
+     margin: 17px 2px;
+     cursor: pointer;
+     background-color: rgb(37, 224, 31);
+     border-radius: 15px;
+     color: black;
+ }
+
+ .btn button a {
+     text-decoration: none;
+ }
+
+ .btn button:hover {
+     color: white;
+     border: 2px solid blue;
+     background-color: crimson;
+ }
+
+
+ /* contactform               */
+ .contactform {
+     font-family: 'Teko', sans-serif;
+     /* padding-top: 40px; */
+     padding: 0 34px;
+ }
+
+ .contactform h1 {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+
+ }
+
+ .contactform form div {
+     color: blue;
+     padding: 10px 0;
+     display: flex;
+     flex-direction: column;
+     font-size: 23px;
+ }
+
+ .contactform form div input {
+     width: 16vw;
+     font-size: 20px;
+     border-radius: 5px;
+     margin: 6px 0;
+     padding: 3px;
+ }
+
+ #emailHelp {
+     padding: 5px;
+     margin: 10px 10px;
+     color: crimson;
+     margin: 0 5px;
+ }
+
+ #form-check {
+     flex-direction: row;
+ }
+
+ #form-check input {
+     width: 24px;
+     margin: 3px 0;
+ }
+
+ #btn-sub {
+     font-size: 15px;
+     width: 100px;
+ }
+
+ .contactimg {
+     background-image: url("contactimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 80vw;
+ }
+
+
+
+ /* Blog Design           */
+ .blogimg {
+     background-image: url("blogimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .blogitem {
+     margin: 3px 11px;
+     padding: 12px 22px;
+     font-family: sans-serif;
+ }
+
+ .infoblog h1 {
+     text-align: center;
+     font-size: 40px;
+     margin: 2px 60px;
+     color: rgb(236, 202, 117);
+ }
+
+ .blogitem h2 {
+     color: palevioletred;
+ }
+
+ p {
+     color: rgb(214, 182, 182);
+     margin: 25px;
+ }
+
+
+ /* technical intoductio */
+ .backimg {
+     color: white;
+     background-image: url("teckimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ #tecpara {
+     color: white;
+     margin: 2px 2px;
+     padding: 5px 25px;
+ }
+
+ #aboutimage {
+     border: 2px solid crimson;
+ }
+
+ .skillContainer {
+     width: 33%;
+     height: 50%;
+     /* border: 2px solid crimson; */
+     box-shadow: 2px 2px 2px 2px gold, 2px 2px 2px 2px crimson;
+     border-radius: 15px;
+     padding: 20px;
+     margin: 25px;
+ }
+
+ .skillitem {
+     display: flex;
+     align-items: center;
+ }
+
+ .skill {
+     width: 100px;
+     height: 10px;
+     background-color: red;
+     border: 2px solid white;
+     border-radius: 3px;
+ }
+
+ h3 {
+     padding: 5px 30px;
+     color: orangered;
+     font-size: 30px;
+ }
+
+ .hundred {
+     background-color: rgb(41, 202, 41);
+     width: 250px;
+     margin: 10px;
+ }
+
+ .near {
+     background-color: blue;
+     width: 200px;
+     margin: 10px;
+ }
+
+ .fifty {
+     background-color: yellow;
+     width: 150px;
+     margin: 10px;
+ }
+
+ .twentfy {
+     background-color: red;
+     width: 80px;
+     margin: 10px;
+ }
+
+ .marks {
+     display: flex;
+     padding: 20px;
+ }
+
+ .red {
+     width: 20px;
+     height: 20px;
+     background-color: red;
+     padding: 2px;
+     margin: 2px;
+ }
+
+ .blue {
+     width: 20px;
+     height: 20px;
+     background-color: blue;
+     padding: 2px;
+     margin: 2px;
+ }
+
+
+ .green {
+     width: 20px;
+     height: 20px;
+     background-color: rgb(41, 202, 41);
+     padding: 2px;
+     margin: 2px;
+ }
+
+
+ .yellow {
+     width: 20px;
+     height: 20px;
+     background-color: yellow;
+     padding: 2px;
+     margin: 2px;
+ }
+
+ #technical {
+     display: flex;
+     padding: 2px 2px;
+     margin: 0px 0px;
+     /* position: relative;
+    left: 30px; */
+ }
+
+ #technical #tecbox {
+     box-shadow: 2px 2px 2px 2px gold, 2px 2px 2px 2px crimson;
+     margin: 0px 20px;
+     padding: 2px 20px;
+     border-radius: 40px;
+     /* flex-dire ction: row; */
+ }
+
+
+ #technical #probox {
+     box-shadow: 2px 2px 2px 2px gold, 2px 2px 2px 2px crimson;
+     margin: 0px -20px;
+     padding: 2px 20px;
+     border-radius: 40px;
+     flex-direction: column;
+ }
+
+
+ #technical #tecbox .mini-head {
+     font-family: 'Bree Serif', serif;
+     color: rgb(227, 22, 189);
+     font-size: 25px;
+     text-shadow: 4px 3px 5px #eb6a0d, 3px 2px 3px #a3c90a;
+ }
+
+
+ #technical #probox .mini-head {
+     font-family: 'Bree Serif', serif;
+     color: rgb(227, 22, 189);
+     font-size: 25px;
+     text-shadow: 4px 3px 5px #eb6a0d, 3px 2px 3px #a3c90a;
+ }
+
+
+ #technical #tecbox .tecitem {
+     text-align: center;
+     color: white;
+     text-shadow: 4px 3px 5px #e61414, 3px 2px 3px #dc4dbf;
+     width: 318px;
+     font-size: 18px;
+ }
+
+ #technical #probox .tecitem {
+     text-align: center;
+     color: white;
+     text-shadow: 4px 3px 5px #e61414, 3px 2px 3px #dc4dbf;
+     width: 318px;
+     font-size: 18px;
+ }
+
+
+
+ #technical #tecbox .tecitem li {
+     text-decoration: none;
+     list-style: none;
+ }
+
+ #technical #probox .tecitem li {
+     text-decoration: none;
+     list-style: none;
+ }
+
+ .tecinfo {
+     /* flex-wrap: wrap; */
+     height: 70vh;
+     width: 80vw;
+     margin: 30px auto;
+     display: flex;
+ }
+
+
+ /* personal information  */
+ .perimg {
+     background-image: url("persimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .headdes {
+     /* flex-wrap: wrap; */
+     color: blue;
+     font-weight: 500;
+     font-size: 20px;
+     text-shadow: 5px 5px 11px #dd871a, 12px 6px 16px #d523a7;
+     padding: 0px 12px;
+ }
+
+ .navbar {
+     flex-wrap: wrap;
+     margin: 0px 20px;
+     width: 80%;
+     color: rgb(10, 8, 8);
+     text-shadow: 4px 5px 4px #d04b64, 4px 5px 13px #4eedcf;
+     font-size: 20px;
+ }
+
+ #objpara {
+     color: rgb(19, 11, 11);
+     width: 85%;
+ }
+
+ #service {
+     display: flex;
+     padding: 2px 2px;
+     margin: 0px 22px;
+ }
+
+ #service #box {
+     background-color: #bbdb701c;
+     border: 2px solid red;
+     padding: 2px;
+     margin: 2px 20px;
+     border-radius: 40px;
+
+ }
+
+ #service #lanbox {
+     background-color: #bbdb701c;
+     border: 2px solid red;
+     padding: 2px;
+     border-radius: 40px;
+     margin: 2px 25px;
+     width: 10vw;
+ }
+
+ #service #box .mini-head {
+     text-align: center;
+     font-family: 'Bree Serif', serif;
+     color: rgb(227, 22, 189);
+     font-size: 25px;
+     text-shadow: 4px 3px 5px #eb6a0d, 3px 2px 3px #a3c90a;
+ }
+
+ #service #lanbox .mini-head {
+     text-align: center;
+     font-family: 'Bree Serif', serif;
+     color: rgb(227, 22, 189);
+     font-size: 25px;
+     text-shadow: 4px 3px 5px #eb6a0d, 3px 2px 3px #a3c90a;
+ }
+
+ #service #box .item {
+     height: 1x;
+     text-align: center;
+     color: rgb(8, 4, 4);
+     text-shadow: 4px 3px 5px #e028bd, 3px 2px 3px #404be4;
+     /* width: 320px; */
+     font-size: 18px;
+ }
+
+ #service #lanbox .item {
+     height: 1x;
+     text-align: center;
+     color: rgb(8, 4, 4);
+     text-shadow: 4px 3px 5px #e028bd, 3px 2px 3px #404be4;
+     /* width: 320px; */
+     font-size: 18px;
+ }
+
+ #service #lanbox #itemid {
+     font-size: 20px;
+ }
+
+ #service #box li {
+     text-decoration: none;
+     list-style: none;
+ }
+
+ #service #lanbox .item li {
+     text-decoration: none;
+     list-style: none;
+ }
+
+
+ /* education             */
+
+ .eduimg {
+     background-image: url("homeimg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+
+ .baseschool {
+     border: 2px solid grey;
+     box-shadow: 2px 3px 18px 3px cyan, 5px 6px 9px 7px crimson;
+     margin: 0px 5px;
+     padding: 5px 5px;
+     border-radius: 10px;
+     /* height: 21vh; */
+     width: 78vw;
+ }
+
+ .highschool {
+     border: 2px solid grey;
+     box-shadow: 2px 3px 18px 3px cyan, 5px 6px 9px 7px crimson;
+     margin: 20px 5px;
+     padding: 5px 5px;
+     border-radius: 10px;
+     /* height: 21vh; */
+     width: 78vw;
+ }
+
+ .puc {
+     border: 2px solid grey;
+     box-shadow: 2px 3px 18px 3px cyan, 5px 6px 9px 7px crimson;
+     margin: 20px 5px;
+     padding: 5px 5px;
+     border-radius: 10px;
+     /* height: 21vh; */
+     width: 78vw;
+ }
+
+ .degree {
+     border: 2px solid grey;
+     box-shadow: 2px 3px 18px 3px cyan, 5px 6px 9px 7px crimson;
+     margin: 0px 5px;
+     padding: 5px 5px;
+     border-radius: 10px;
+     /* height: 21vh; */
+     width: 78vw;
+ }
+
+ .sname {
+     color: red;
+     font-size: 20px;
+     margin: -10px 13px
+ }
+
+ .subpara {
+     margin: 0px 30px;
+     font-size: 15px;
+     color: lightcoral;
+ }
+
+ /* .pucimg{
+    width: 20px;
+    height: 20px;
+} */
+
+ .hambur {
+     position: absolute;
+     cursor: pointer;
+     top: 10px;
+     left: 10px;
+     /* border: 3px solid black; */
+ }
+
+ .sidebargo {
+     transform: translate(-443px, 0px);
+     position: absolute;
+ }
+
+ .cross {
+     margin-left: 204px;
+ }
+
+ @media (max-width:1530px) {
+
+     .devpic {
+         display: none;
+     }
+
+ }
+
+ #contide {
+     height: 100vh;
+     width: 100vw;
+ }
+
+ #blogide {
+     height: 100vh;
+     width: 100vw;
+ }
+
+ #homeide {
+     height: 100vh;
+     width: 100vw;
+ }
+
+ #perside {
+     height: 100vh;
+     width: 100vw;
+ }
+
+ #eduide {
+     height: 100vh;
+     width: 100vw;
+ }
+
+ #teckide {
+     height: 100vh;
+     width: 100vw;
+ }
+
+ .mar {
+     margin: 0px 60px;
+ }
+
+ .edumar {
+     margin: 0px 270px;
+ }
